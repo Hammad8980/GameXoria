@@ -1,0 +1,68 @@
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url("https://assets.xboxservices.com/assets/e6/65/e6655ce8-3974-4849-8a7a-320941a9d976.jpg?n=320089_Custom-Hero-1400_1920x1237.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}.text-box {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+    color: white;
+    width: 90%;
+  }
+  .text-box h1 {
+    font-size: 48px;
+  }
+  .text-box p {
+    margin: 10px 0 40px;
+    font-size: 25px;
+  }
+.nav-item {
+    align-items: end;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.card-header h3{
+    color: black;
+}
+
+.card-body {
+    background-color: black;
+}
+.card-body h2{
+    color: white;
+}
+.card-body p{
+    color: white;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+#footer{
+    text-align: center;
+    padding: 5% 15%;
+    line-height: 1;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+.social-icon:hover{
+    color: #ff4c68;
+}
